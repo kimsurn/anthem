@@ -1,0 +1,287 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Korean_anthem</title>
+
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+    <script src="https://use.typekit.net/dcf1ame.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>1008</title>
+    <style type="text/css">
+
+    *h2{font-family: "source-han-serif-korean",serif;}
+    h1, h5 {font-family: "garamond", serif;}
+    h1{text-align:center; font-size: 3.5em; line-height:1.7; font-weight: 800; color: white;}
+    h1:hover {color: black;}
+    h2{text-align:center; font-size: 5em; line-height:1.5; font-weight: 900; color:black;}
+    h2:hover {color: white;}
+    h4{font-size: 1.2em; line-height:1.7; font-weight: 600; color: red;}
+    h5{text-align:right; font-size: 2em; line-height:1.1; font-weight: 400; color: white;}
+    h5:hover {font-size: 5em; line-height: 0.5; font-weight: 200; color: black;}
+
+    p.typing-txt{display: none; position: absolute;}
+
+    .typing {  
+      position: absolute;
+      display: block; 
+      animation: cursor 7s ease-in-out forwards;
+    } 
+    @keyframes cursor{ 
+      0%{border-right: 1px solid #fff} 
+      50%{border-right: 1px solid #000} 
+      100%{border-right: 1px solid #fff} 
+    }
+
+
+    #back1{position: absolute; left: 0px; top: 0px; background: white; }
+
+
+    #name {width: 450px; height: 100px; position: absolute;background: black; opacity: 0; animation: slide 0.5s forwards}
+    #name1 {width: 450px; height: 100px; position: absolute;background: black; opacity: 0; animation: slide__ 1.2s forwards}
+    #name1-1 {width: 450px; height: 100px; position: absolute;background: black; opacity: 0; animation: slide___ 2s forwards}
+    #name2 {width: 30px; height: 100px; position: absolute; background: white; opacity: 0; animation: slide_ 1.2s forwards}
+    #name2:hover {opacity: 0; transition: all 0s;}
+
+    #blue {background:blue; width: 50px; height: 200px; left: 1230px; top:0px; position: absolute; animation: blbl 4s}
+    #red {background: red; position: absolute; width: 30px; height: 520px; left:0px; top:320px; animation-delay: 4.6s; animation: rere 4s;}
+
+
+    #marquee1{background: red; width: 700px; height: 350px; display: block; position: absolute; top: 0px; left: 0px; animation: drop 2s ease-in-out forwards; animation-delay: 1.5s; opacity: 0;}
+
+    #marquee2{background: blue; width: 950px; height: 520px; position: absolute; top: 280px; left: 600px; animation: drop_ ease-in-out 3s forwards; animation-delay: 2.5s; opacity: 0; border-radius: 50%;}
+    #marquee2:hover { transition: 2s; border-radius: 10%;}
+
+    #marquee3{width: 100px; height: 920px; position: absolute; left: 400px; top:0px; animation: drop____ ease-in-out 12s forwards;}
+
+    #marquee33{width: 100px; height: 100px; position: absolute; left: 720px; top:120px; animation: drop____ ease-in-out 10s forwards;}
+    #marquee33:hover { transform: rotateX(-180deg); top: 20px;}
+
+    #marquee4{background: black; width: 100px; height: 800px; position: absolute; left: 240px; top:0px; animation: drop__ ease-in-out 4s forwards; animation: drop__e ease-in-out 4s infinite; animation-delay: 5s; opacity: 0;}
+    #marquee4:hover {opacity: 1; transition: all 0.5s; }
+
+    #marquee5{background: black; width: 200px; height: 450px; position: absolute; left: 40px; top:350px; animation: drop___ ease-in-out 4s forwards; animation-delay: 4.6s; opacity: 0;}
+    #marquee5:hover {background-color: white;}
+
+    @keyframes drop{
+        from {opacity: 0; width: 1800px; height: 1800px; transform: rotate(180deg);}
+        to {opacity: 1; width: 700px; height: 337px; transform: rotate(360deg);}
+        }
+
+    @keyframes drop_{
+        from {opacity: 0; width: 100px; height: 200px; transform: scale(0);}
+        to {opacity: 1; width: 900px; height: 450px; transform:scale(1);}
+        }
+
+    @keyframes drop__{
+        from {top: -900px;}
+        to {top: 0px;}
+	      0%{opacity: 1;} 
+	      25%{opacity: 1;}
+	      50%{opacity: 0;}
+	      75%{opacity:1;} 
+	      100%{opacity: 1;} 
+    }
+
+    @keyframes drop__e{
+	      0%{opacity: 0;} 
+	      16%{opacity: 1;}
+	      84%{opacity: 1;} 
+	      100%{opacity: 0;}
+        }
+
+    @keyframes drop___{
+        from {opacity: 0; top: 1200px; }
+        to {opacity: 1; top:350px;}
+        }
+
+    @keyframes drop____{
+        from {opacity: 0;}
+        to {opacity: 1;}
+        }
+
+    @keyframes slide {
+        from {opacity: 0; left: -200px;}
+        to {opacity: 1; left: 720px;}
+        }
+
+    @keyframes slide_ {
+        from {opacity: 0; left: -500px;}
+        to {opacity: 1; left: 930px;}
+        }
+
+    @keyframes slide__ {
+        from {opacity: 0; left: -400px;}
+        to {opacity: 1; left: 720px;}
+        }
+
+    @keyframes slide___ {
+        from {opacity: 0; left: -600px;}
+        to {opacity: 1; left: 720px;}
+        }
+
+    @keyframes blbl{
+    	from{top: -100px;}
+    	to{top: 0px;}
+    }
+
+    @keyframes rere{
+    	from{height: 0px;}
+    	to{height: 600px;}
+    }
+
+    #yellow {animation: drop____ 7s ease-in-out forwards}
+
+
+    #hoverwhite{color: blue;}
+    #hoverwhite:hover {color: white; font-size: 3em;}
+        /*onload = "JSMarquee()"
+        <form name="marqueeForm">
+		<center>
+		<input name="marqueeText" size="50" value="THIS ISDSJFHDA SCNDJKQAJCD"+"DJAKHDJADKLQIHDW">
+		</center>
+	</form>
+	<script type="text/javascript">
+		var SCROLL_RATE = 100;
+		var SCROLL_CHARS = 1;
+		vr marqueeMessage = new String();
+		function JSMarquee(){
+			setTimeout('JSMarquee()', SCROLL_RATE);
+			marqueeMessage = document.marqueeForm.marqueeTxt.value;
+			document.marqueeForm.marqueeText.value = marqueeMessage.substring(SCROLL_CHARS)+marqueeMessage.substring(SCROLL_CHARS);
+		}
+	</script>
+
+	<script type="text/javascript">
+
+        var text = "가을하늘공활한데 높고구름없이 밝은달은 우리가슴 일편단심일세 무궁화삼천리 화려강산 대한사람 대한으로 길이보전하세";
+
+        var p = text.split(" ");
+        var c = document.getElementById("marquee1");
+
+        for(var i=0; i<p.length; i++){
+            var b = c.cloneNode(true);
+            b.innerHTML = p[i];
+
+            b.onclick = function(){
+                var d = document.getElementById(this.id);
+                name.innerHTML = "삐빅- 애국가 "+ "1" + "절 완창하시오.";
+                document.body.removeChild(d);
+            }
+            document.body.appendChild(b);
+        }
+    </script>*/
+	body {background: white;}
+	</style>
+
+</head>
+
+<body>
+	<audio id="testMusic1"> <source src="1.mp3" type="audio/mpeg"></audio>
+	
+    <div id="name1-1" style="left:720px; top: 240px;"></div>
+    <div id="name1" style="left:720px; top: 120px; "></div>
+    <div id="name" style="left:720px; top: 0px;"></div>  
+
+    <div id="blue"></div>
+    <div id="red"></div>  
+
+
+    <script>
+		var t = document.getElementById("marquee1");
+		var on = false;
+		t.onclick = function(){
+			if(on){
+				document.body.style.background = "red";
+				on = false;
+			}else{
+				document.body.style.background = "white";
+				on = true;
+			}
+		}
+	</script>
+	<script type="text/javascript">
+		marquee1.onclick = function(){
+			if(toggle == "off"){
+					testMusic1.play();
+					toggle = "on";
+				}
+			else {
+					testMusic1.load();
+					toggle = "off";
+				}
+			}	
+
+	</script>
+
+	<div id="marquee1"> <h1><marquee bavior="alternate" direction="up" width="700" height="300" scrollamount="5">Until the day when the <br>East Sea'swaters and Mt. Baekdu are dry and<br>worn away, God protect and preserve us.<br>Long live our nation!<br>Three thousand Li of splendid rivers and mountains, filled with<br>Roses of Sharon<br> Great Korean People,<br>stay true to the Great Korean way.</marquee></h1></div>
+
+	<div id="marquee2"><h2><marquee bavior="scroll" direction="left" width="810" height="450" scrollamount="3" style="filter:alpha(finishOpacity=0); margin-top: -50px;">남산 위에 저 소나무<br>철갑을 두른 듯<br>바람 서리 불변함은<br>우리 기상일세<br>무궁화 삼천리<br>화려 강산<br>대한 사람 대한으로<br>길이 보전하세</marquee></h2></div>
+
+	<div id="marquee3" style="color: red;"><h3><marquee bavior="alternate" direction="right" width="1100" height="500" scrollamount="10">Autumn sky is void and vast, high and cloudless, the bright moon is our heart, undivided and true.</marquee></h3></div>
+
+	<div id="marquee33" style="color: blue;"><h3 style="transform: rotateX(180deg);"><marquee bavior="alternate" direction="left" width="450" height="100" scrollamount="4"><span id="hoverwhite">가을 하늘 공활한데 높고 구름 없이 밝은 달은 우리 가슴 일편단심일세 무궁화 삼천리 화려 강산 대한 사람 대한으로 길이 보전하세</marquee></h3></div>
+
+
+	 <div id="marquee4" style="color: white; "><h4 style="transform: rotate(90deg);"><marquee bavior="scroll" direction="right" width="870" height="90" scrollamount="8"> 
+	 Three thousand Li of splendid rivers and mountains, filled with Roses of Sharon Great Korean People, stay true to the Great Korean way.</marquee></h4></div>
+
+	<div id="marquee5"> <h5 style="text-align: center; transform: rotateY(180deg);"><marquee bavior="scroll" direction="left" width="200" height="450" scrollamount="10"> With this spirit and this mind,<br>give all loyalty,<br>in suffering or in joy,<br>love the country.<br>Three thousand Li of splendid<br>rivers and mountains,<br>filled with Roses of Sharon;<br>Great Korean People,<br>stay true to the Great Korean way.</marquee></h5></div>
+
+
+    <div id="name2" style="left:930px; top: 120px;"></div>
+
+    <p class="typing-txt" style="height: 400px;"> 1. 동해물과 백두산이 / 마르고 닳도록 / 하느님이 보우하사 / 우리나라 만세 / 무궁화 삼천리 / 화려 강산 / 대한 사람 대한으로 / 길이 보전하세     2. 남산 위에 저 소나무 / 철갑을 두른 듯 / 바람 서리 불변함은 / 우리 기상일세 / 무궁화 삼천리 / 화려 강산 / 대한 사람 대한으로 / 길이 보전하세     3. 가을 하늘 공활한데 / 높고 구름 없이 / 밝은 달은 우리 가슴 / 일편단심일세 / 무궁화 삼천리 / 화려 강산 / 대한 사람 대한으로 / 길이 보전하세     4. 이 기상과 이 맘으로 / 충성을 다하여 / 괴로우나 즐거우나 / 나라 사랑하세 / 무궁화 삼천리 / 화려 강산 / 대한 사람 대한으로 / 길이 보전하세     1. 동해물과 백두산이 / 마르고 닳도록 / 하느님이 보우하사 / 우리나라 만세 / 무궁화 삼천리 / 화려 강산 / 대한 사람 대한으로 / 길이 보전하세</p> 
+	  <p class="typing" style="left:1200px; top: 40px;"></p>
+
+	  <script> 
+	    var typingBool = false; 
+	    var typingIdx=0; 
+	    var typingTxt = $(".typing-txt").text(); 
+	    typingTxt=typingTxt.split("");  
+	    if(typingBool==false){  
+	       typingBool=true; 
+	       
+	       var tyInt = setInterval(typing,100); 
+	     } 
+	     
+	     function typing(){ 
+	       if(typingIdx<typingTxt.length){ 
+	         $(".typing").append(typingTxt[typingIdx]); 
+	         typingIdx++; 
+	       } else{ 
+	         clearInterval(tyInt); 
+	       } 
+	     }   
+	  </script> 
+
+	  <div id="yellow">
+	  <p class="typing-txt" style="height: 1000px; font-weight: 600; animation:drop____ 7s ease-in-out forwards "> 1. 동해물과 백두산이 / 마르고 닳도록 / 하느님이 보우하사 / 우리나라 만세 / 무궁화 삼천리 / 화려 강산 / 대한 사람 대한으로 / 길이 보전하세     2. 남산 위에 저 소나무 / 철갑을 두른 듯 / 바람 서리 불변함은 / 우리 기상일세 / 무궁화 삼천리 / 화려 강산 / 대한 사람 대한으로 / 길이 보전하세     3. 가을 하늘 공활한데 / 높고 구름 없이 / 밝은 달은 우리 가슴 / 일편단심일세 / 무궁화 삼천리 / 화려 강산 / 대한 사람 대한으로 / 길이 보전하세     4. 이 기상과 이 맘으로 / 충성을 다하여 / 괴로우나 즐거우나 / 나라 사랑하세 / 무궁화 삼천리 / 화려 강산 / 대한 사람 대한으로 / 길이 보전하세</p> 
+	  <p class="typing" style="width: 300px; left:270px; top: 400px; color: yellow; transform: rotate(90deg);"></p>
+	</div>
+
+	  <script> 
+	    var typingBool = false; 
+	    var typingIdx=0; 
+	    var typingTxt = $(".typing-txt").text(); 
+	    typingTxt=typingTxt.split("");  
+	    if(typingBool==false){  
+	       typingBool=true; 
+	       
+	       var tyInt1 = setInterval(typing,200); 
+	     } 
+	     
+	     function typing(){ 
+	       if(typingIdx<typingTxt.length){ 
+	         $(".typing").append(typingTxt[typingIdx]); 
+	         typingIdx++; 
+	       } else{ 
+	         clearInterval(tyInt1); 
+	       } 
+	     }   
+	  </script> 
+	</body>
+</html>
